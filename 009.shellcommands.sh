@@ -1,1 +1,3 @@
-pip install "fastapi[all]"
+# pip install "fastapi[all]"
+
+# fastapi dev main.py
