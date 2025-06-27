@@ -12,5 +12,7 @@
 # docker update --restart=<policy> <container_id_or_name>
 sudo docker update --restart=always b374bab3a8d3
 sudo docker update --restart=always f73f5bc5ffe3
+## remove all containers
+# docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
 
 
