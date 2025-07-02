@@ -1,1 +1,3 @@
 https://spacelift.io/blog/docker-compose
+
+https://www.youtube.com/watch?app=desktop&v=ZyP1j5w1BXs&t=118s
