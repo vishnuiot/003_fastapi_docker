@@ -1,3 +1,10 @@
+sudo gpasswd -a $(whoami) docker
+#>> Adding user "username" to group docker
+sudo adduser vishnu $(whoami)dialout
+sudo usermod -aG docker vishnu
+#reboot
+
+
 # sudo docker images -a
 # sudo docker ps
 # sudo docker stop 13c599907d8
