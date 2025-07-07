@@ -1,9 +1,10 @@
 ##### Method 1: Name a container as grafana and restart the same with the container name
-##step 1 initialize grafana
+##step 1 initialize grafana & run grafana |step 2&3 run grafana
 sudo docker run -d --name grafana -p 3000:3000 grafana/grafana
 sudo docker update --restart=always grafana
-##  step 3 run grafana
 sudo docker start grafana
+
+
 ## step 4 stop grafana
 # sudo docker stop grafana
 

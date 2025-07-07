@@ -1,5 +1,17 @@
+
+docker run -d --name influxdb -p 8086:8086 -p 8083:8083 \
+    -e INFLUXDB_ADMIN_ENABLED=true \
+    influxdb
+
+sudo docker update --restart=always influxdb
+
+
 ### working version 2.0 of influxdb
-docker run -d --name=inflxdb -p 8086:8086 influxdb:2
+docker run -d --name=influxdb -p 8086:8086 influxdb:2
+
+docker run -d -p 8086:8086 --name influxdb influxdb:3.2.1-core
+docker start influxdb
+
 
 # sudo docker pull influxdb NAMED_IMAGE:TAG
 ## docker run = pulls and starts a new container
@@ -16,22 +28,6 @@ sudo docker update --restart=always 78950606fd29  // specify the container id he
 ## list containers
 docker container ls -q  
 
-docker run -d --name=inflxdb -p 8086:8086 influxdb:2
-
-docker run \
-    -p 8086:8086 \
-    -v "$PWD/data:/var/lib/influxdb2" \
-    -v "$PWD/config:/etc/influxdb2" \
-    influxdb:2
-
-docker start 2ed9c364e9d2
-docker start influxdb
-2a3a709b36e2
-sudo docker update --restart=always b4355848b856
-sudo docker update --restart=always 4f2ba943b1de
-
-sudo docker update --restart=always influxdb
-sudo docker update --restart=always grafana/grafana
 
 
 
