@@ -1,1 +1,1 @@
-FastAPI
+FastAPI , Grafana , Influxdb
