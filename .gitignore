@@ -1,4 +1,7 @@
 /.venv
+/config
+/data
+
 /old
 apikey.env
 __pycache__
