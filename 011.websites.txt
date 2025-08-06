@@ -8,6 +8,7 @@ https://kestra.io/docs/use-cases/python-workflows
 
 Docker on RPI
 curl -sSL https://get.docker.com | sh
-
+fastapi
+https://www.youtube.com/watch?v=dS_eDDEjjd8&list=PLdtwawCR2QjmdefLQg8K4Ca4GaIkilG3O
 
 
