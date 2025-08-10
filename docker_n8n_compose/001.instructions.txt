@@ -1,0 +1,2 @@
+01. Change domain to local for development in yaml
+02. localhost:5678
