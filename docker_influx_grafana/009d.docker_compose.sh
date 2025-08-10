@@ -7,3 +7,8 @@ docker compose stop
 docker compose down
 sudo docker-compose logs
 docker compose build
+
+docker compose up 
+docker compose down 
+
+

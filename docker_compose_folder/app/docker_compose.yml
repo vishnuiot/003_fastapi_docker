@@ -1,8 +1,18 @@
-version: '3.7'
 services:
-  web:
-    image: nginx:alpine
+  grafana: 
+    environment:
     ports:
-      - "8000:80"
-    volumes:
-      - ./app:/usr/share/nginx/html
+    - "3000:3000"
+    volumes :
+    image:grafana
+
+
+
+
+
+# sudo docker run -d --name grafana -p 3000:3000 grafana/grafana
+
+
+# docker run -d --name influxdb -p 8086:8086 -p 8083:8083 \
+#     -e INFLUXDB_ADMIN_ENABLED=true \
+#     influxdb
